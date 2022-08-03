@@ -88,16 +88,32 @@ footer {
 
 /* PAGES */
 
-.container {
+.container-vision {
   height: 450px;
   width: 600px;
-  margin: 100px;
+  margin-left: 100px;
   margin-top: 80px;
   background-color: rgba(0, 0, 0, 0.623);
 }
 
-.container-2 {
+.container-colab {
   height: 490px;
+  width: 600px;
+  margin-top: 60px;
+  margin-left: 80px;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.home-vision {
+  height: 25px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.home-colab {
+  height: 25px;
   width: 600px;
   margin-top: 60px;
   margin-left: 80px;
@@ -207,6 +223,15 @@ footer {
   background-size: cover;
 }
 
+.home-portfolio {
+  height: 25px;
+  width: auto;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 1200px){
@@ -219,20 +244,30 @@ footer {
   *{
     font-size: 15px;
   }
-  .container{
+  .container-vision{
     margin-top: 40px;
     margin-left: 35px;
     height: 450px;
   }
-  .container-2{
+  .home-vision{
+    margin-top: 40px;
+    margin-left: 35px;
+    height: 25px;
+  }
+  .container-colab{
     margin-top: 40px;
     margin-left: 35px;
     height: 490px;
   }
+  .home-colab{
+    margin-top: 40px;
+    margin-left: 35px;
+    height: 25px;
+  }
 
   /* GALERIA PROTFOLIO */
   .galeria {
-    margin-top: 15px;
+    margin-top: 5px;
     height: auto;
     width: auto;
     display: grid;
@@ -243,6 +278,9 @@ footer {
     grid-template-areas: "img1 img2 img3 img3"
                          "img1 img4 img5 img6"
                          "img7 img4 img8 img8";
+  }
+  .home-portfolio{
+    margin-top: auto;
   }
 }
 
@@ -258,21 +296,35 @@ footer {
     margin-right: auto;
     width: 100%;
   }
-  .container{
+  .container-vision{
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
     height: 450px;
     width: 370px;
   }
+  .home-vision{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+    width: 370px;
+  }
   .h1{
     font-size: 65px;
   }
-  .container-2{
+  .container-colab{
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+    width: 370px;
+  }
+  .home-colab{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
     width: 370px;
   }
   .footer-container {
@@ -297,6 +349,9 @@ footer {
                          "img5 img5 img6 img6"
                          "img7 img8 img8 img8";
   }
+  .home-portfolio{
+    margin-top: auto;
+  }
 }
 
 @media only screen and (max-width: 384px){
@@ -311,7 +366,14 @@ footer {
     margin-right: auto;
     width: 100%;
   }
-  .container{
+  .container-vision{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+  }
+  .home-vision{
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -321,9 +383,16 @@ footer {
   .h1{
     font-size: 35px;
   }
-  .container-2{
+  .container-colab{
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+  }
+  .home-colab{
+    margin-top: 15px;
+    margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 100%;
@@ -359,5 +428,8 @@ footer {
                          "img6"
                          "img7"
                          "img8";
+  }
+  .home-portfolio{
+    margin-top: auto;
   }
 }
