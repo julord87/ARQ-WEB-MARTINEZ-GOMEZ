@@ -111,56 +111,56 @@ body {
 }
 
 .galeria-item1 {
-  background-image: url(/images/1.jpg);
+  background-image: url(../images/1.jpg);
   grid-area: img1;
   background-position: center;
   background-size: cover;
 }
 
 .galeria-item2 {
-  background-image: url(/images/2.jpg);
+  background-image: url(../images/2.jpg);
   grid-area: img2;
-  background-position: center;
+  background-position: center;.
   background-size: cover;
 }
 
 .galeria-item3 {
-  background-image: url(/images/3.jpg);
+  background-image: url(../images/3.jpg);
   grid-area: img3;
   background-position: center;
   background-size: cover;
 }
 
 .galeria-item4 {
-  background-image: url(/images/4.jpg);
+  background-image: url(../images/4.jpg);
   grid-area: img4;
   background-position: center;
   background-size: cover;
 }
 
 .galeria-item5 {
-  background-image: url(/images/5.jpg);
+  background-image: url(../images/5.jpg);
   grid-area: img5;
   background-position: center;
   background-size: cover;
 }
 
 .galeria-item6 {
-  background-image: url(/images/6.jpg);
+  background-image: url(../images/6.jpg);
   grid-area: img6;
   background-position: center;
   background-size: cover;
 }
 
 .galeria-item7 {
-  background-image: url(/images/7.jpg);
+  background-image: url(../images/7.jpg);
   grid-area: img7;
   background-position: center;
   background-size: cover;
 }
 
 .galeria-item8 {
-  background-image: url(/images/8.jpg);
+  background-image: url(../images/8.jpg);
   grid-area: img8;
   background-position: center;
   background-size: cover;
