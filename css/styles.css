@@ -7,6 +7,13 @@
     font-family: Menlo, monospace;
 }
 
+/* NAVBAR */
+
+.nav-item a {
+  padding: 15px !important;
+}
+
+
 /* LOGO */
 .logo {
   padding: 8px;
@@ -120,7 +127,7 @@ body {
 .galeria-item2 {
   background-image: url(../images/2.jpg);
   grid-area: img2;
-  background-position: center;.
+  background-position: center;
   background-size: cover;
 }
 
