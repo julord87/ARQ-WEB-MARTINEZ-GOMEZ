@@ -1,16 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-size: 14px;
-  font-family: Menlo, monospace;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+    font-size: 14px;
+    font-family: Menlo, monospace;
 }
 
 /* VARIABLES */
+
+$containerColor: rgba(17, 16, 19, 0.938);
+$footerColor: rgb(203, 255, 238);
+
 /* NAVBAR */
-.nav-item a {
-  padding: 15px !important;
+
+.nav-item {
+    a {
+        padding: 15px !important;
+    }
 }
+
 
 /* LOGO */
 .logo {
@@ -19,6 +28,7 @@
 }
 
 /* CAROUSEL */
+
 .carousel-item {
   max-height: 778px;
 }
@@ -28,6 +38,7 @@
 }
 
 /* PAGES */
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +54,7 @@ body {
   width: 600px;
   margin-left: 100px;
   margin-top: 80px;
-  background-color: rgba(17, 16, 19, 0.938);
+  background-color: $containerColor;
   margin-bottom: 24vh;
 }
 
@@ -52,7 +63,7 @@ body {
   width: 600px;
   margin-top: 60px;
   margin-left: 80px;
-  background-color: rgba(17, 16, 19, 0.938);
+  background-color: $containerColor;
   margin-bottom: 23vh;
 }
 
@@ -75,6 +86,7 @@ body {
 }
 
 /* PORTFOLIO */
+
 .galeria {
   height: auto;
   width: auto;
@@ -83,7 +95,9 @@ body {
   grid-gap: 3px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(3, 250px);
-  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+  grid-template-areas: "img1 img2 img3 img3"
+                       "img1 img4 img5 img6"
+                       "img7 img4 img8 img8";
 }
 
 .galeria-item {
@@ -165,43 +179,50 @@ body {
 }
 
 /* FOOTER */
-footer {
-  padding: 40px;
-  background-color: rgb(203, 255, 238);
-}
 
-.redes {
-  letter-spacing: 10px;
-}
+footer{
+    padding: 40px;
+    background-color: $footerColor;
+  }
+  
+  .redes {
+    letter-spacing: 10px;
+  }
+  
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #logo {
+
+@media only screen and (min-width: 1200px){
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+  #logo{
     width: 300px;
   }
-  * {
+  *{
     font-size: 15px;
   }
-  .container-vision {
+  .container-vision{
     margin-top: 40px;
     margin-left: 35px;
     height: 450px;
   }
-  .home-vision {
+  .home-vision{
     margin-top: 40px;
     margin-left: 35px;
     height: 25px;
   }
-  .container-colab {
+  .container-colab{
     margin-top: 40px;
     margin-left: 35px;
     height: 490px;
   }
-  .home-colab {
+  .home-colab{
     margin-top: 40px;
     margin-left: 35px;
     height: 25px;
   }
+
   /* GALERIA PROTFOLIO */
   .galeria {
     margin-top: 5px;
@@ -212,49 +233,52 @@ footer {
     grid-gap: 3px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 230px);
-    grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+    grid-template-areas: "img1 img2 img3 img3"
+                         "img1 img4 img5 img6"
+                         "img7 img4 img8 img8";
   }
-  .home-portfolio {
+  .home-portfolio{
     margin-top: auto;
   }
 }
-@media only screen and (min-width: 385px) and (max-width: 767px) {
-  #logo {
+
+@media only screen and (min-width: 385px) and (max-width: 767px){
+  #logo{
     width: 300px;
   }
-  * {
+  *{
     font-size: 14px;
   }
-  table {
+  table{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
-  .container-vision {
+  .container-vision{
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
     height: 450px;
     width: 370px;
   }
-  .home-vision {
+  .home-vision{
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
     height: 25px;
     width: 370px;
   }
-  .h1 {
+  .h1{
     font-size: 65px;
   }
-  .container-colab {
+  .container-colab{
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 370px;
   }
-  .home-colab {
+  .home-colab{
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -267,6 +291,7 @@ footer {
     font-size: 12px;
     letter-spacing: 1px;
   }
+
   /* GALERIA PORTFOLIO */
   .galeria {
     margin-top: 15px;
@@ -277,49 +302,53 @@ footer {
     grid-gap: 3px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 230px);
-    grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img4" "img5 img5 img6 img6" "img7 img8 img8 img8";
+    grid-template-areas: "img1 img1 img2 img2"
+                         "img3 img4 img4 img4"
+                         "img5 img5 img6 img6"
+                         "img7 img8 img8 img8";
   }
-  .home-portfolio {
+  .home-portfolio{
     margin-top: auto;
   }
 }
-@media only screen and (max-width: 384px) {
-  #logo {
+
+@media only screen and (max-width: 384px){
+  #logo{
     width: 230px;
   }
-  * {
+  *{
     font-size: 13px;
   }
-  table {
+  table{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
-  .container-vision {
+  .container-vision{
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 100%;
   }
-  .home-vision {
+  .home-vision{
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 100%;
   }
-  .h1 {
+  .h1{
     font-size: 35px;
   }
-  .container-colab {
+  .container-colab{
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 100%;
   }
-  .home-colab {
+  .home-colab{
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -335,9 +364,10 @@ footer {
     flex-wrap: wrap;
     align-items: center;
   }
-  .redes {
+  .redes{
     word-spacing: 5px;
   }
+
   /* GALERIA PORTFOLIO */
   .galeria {
     margin-top: 15px;
@@ -348,9 +378,16 @@ footer {
     grid-gap: 3px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 230px);
-    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8";
+    grid-template-areas: "img1"
+                         "img2"
+                         "img3"
+                         "img4"
+                         "img5"
+                         "img6"
+                         "img7"
+                         "img8";
   }
-  .home-portfolio {
+  .home-portfolio{
     margin-top: auto;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
