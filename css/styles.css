@@ -3,7 +3,6 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: Menlo, monospace;
   box-sizing: border-box;
   background-color: #FBFBFB;
 }
@@ -54,6 +53,7 @@ body {
 }
 
 .container-vision {
+  font-family:  Menlo, monospace;
   height: 450px;
   width: 600px;
   margin-left: 100px;
@@ -63,6 +63,7 @@ body {
 }
 
 .container-colab {
+  font-family:  Menlo, monospace;
   height: 490px;
   width: 600px;
   margin-top: 60px;
@@ -72,6 +73,7 @@ body {
 }
 
 .container-contacto {
+  font-family:  Menlo, monospace;
   height: 43vh;
   width: 600px;
   margin-top: 60px;
