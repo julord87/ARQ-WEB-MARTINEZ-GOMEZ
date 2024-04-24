@@ -54,12 +54,12 @@ body {
 
 .container-vision {
   font-family:  Menlo, monospace;
-  height: 450px;
+  height: auto;
   width: 600px;
   margin-left: 100px;
   margin-top: 80px;
   background-color: rgba(17, 16, 19, 0.401);
-  /* margin-bottom: 24vh; */
+  padding: 20px;
 }
 
 .container-colab {
@@ -88,8 +88,8 @@ body {
 }
 
 .container-colab {
-  height: 490px;
-  width: 600px;
+  height: 55vh;
+  width: 70vh;
   margin-top: 60px;
   margin-left: 80px;
   background-color: rgba(17, 16, 19, 0.401);
@@ -314,11 +314,6 @@ footer {
     margin-left: 35px;
     height: 480px;
   }
-  .container-colab {
-    margin-top: 40px;
-    margin-left: 35px;
-    height: 490px;
-  }
   /* GALERIA PROTFOLIO */
   .galeria {
     margin-top: 5px;
@@ -355,13 +350,7 @@ footer {
   .h1 {
     font-size: 65px;
   }
-  .container-colab {
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    width: 370px;
-  }
+
   .footer-container {
     display: flex;
     justify-content: center;
@@ -392,7 +381,6 @@ footer {
     height: 17vh;
     text-align: right;
     margin-left: 1.8vh;
-    
   }
   .navbar-collapse {
     display: block !important;
@@ -407,19 +395,18 @@ footer {
   .nav-item-correct a {
     margin-right: 39px;
   }
-  .container-vision {
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 100%;
-  }
   .h1 {
     font-size: 35px;
   }
   .carousel-item .w-100 {
     width: 102vh !important; /* O cualquier otro valor que desees */
-}
+  }
+  .container-vision {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
   .container-colab {
     margin-top: 15px;
     margin-left: auto;
