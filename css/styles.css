@@ -34,7 +34,7 @@ html, body {
 }
 
 .carousel-caption {
-  background-color: rgba(0, 17, 48, 0.24);
+  background-color: rgba(100, 110, 130, 0.6);
 }
 
 .carousel-inner {
@@ -147,7 +147,7 @@ body {
 }
 
 .galeria-item1 {
-  background-image: url(../images/bg1.jpg);
+  background-image: url(../images/1.jpg);
   grid-area: img1;
   background-position: center;
   background-size: cover;
@@ -161,7 +161,7 @@ body {
 }
 
 .galeria-item3 {
-  background-image: url(../images/bg3.jpg);
+  background-image: url(../images/3.jpg);
   grid-area: img3;
   background-position: center;
   background-size: cover;
