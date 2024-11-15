@@ -39,6 +39,6 @@ export const ochoproyectos = [
         id: "img8",
         nombre: "Proyecto 8",
         descripcion: "Al método del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza clésica de la literatura del Latin.",
-        imagen: "../images/bg2.jpg",
+        imagen: "../images/8.jpeg",
     },
 ]
