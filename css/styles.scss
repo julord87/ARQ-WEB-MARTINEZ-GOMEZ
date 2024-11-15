@@ -1,0 +1,352 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+    font-size: 14px;
+    font-family: Menlo, monospace;
+}
+
+/* VARIABLES */
+
+$containerColor: rgba(17, 16, 19, 0.938);
+$footerColor: rgb(203, 255, 238);
+
+/* NAVBAR */
+
+.nav-item {
+    a {
+        padding: 10px !important;
+    }
+}
+
+/* LOGO */
+.logo {
+  padding: 8px;
+  margin-right: 20px;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+  max-height: 778px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 17, 48, 0.24);
+}
+
+/* PAGES */
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  background-position: center;
+  background-size: cover;
+}
+
+.container-vision {
+  height: 450px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 80px;
+  background-color: $containerColor;
+  margin-bottom: 24vh;
+}
+
+.container-colab {
+  height: 490px;
+  width: 600px;
+  margin-top: 60px;
+  margin-left: 80px;
+  background-color: $containerColor;
+  margin-bottom: 23vh;
+}
+
+.h1 {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+}
+
+.h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.p {
+  color: white;
+  text-align: justify;
+  margin: 15px;
+}
+
+/* PORTFOLIO */
+
+.galeria {
+  height: auto;
+  width: auto;
+  display: grid;
+  padding: 10px;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 250px);
+  grid-template-areas: "img1 img2 img3 img3"
+                       "img1 img4 img5 img6"
+                       "img7 img4 img8 img8";
+}
+
+.galeria-item {
+  border: 1px solid rgb(255, 255, 255);
+  filter: grayscale(100);
+  transition: all 0.7s;
+}
+
+.galeria-item:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.galeria-item1 {
+  background-image: url(../images/bg1.jpg);
+  grid-area: img1;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item2 {
+  background-image: url(../images/2.jpg);
+  grid-area: img2;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item3 {
+  background-image: url(../images/bg3.jpg);
+  grid-area: img3;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item4 {
+  background-image: url(../images/4.jpg);
+  grid-area: img4;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item5 {
+  background-image: url(../images/5.jpg);
+  grid-area: img5;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item6 {
+  background-image: url(../images/6.jpg);
+  grid-area: img6;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item7 {
+  background-image: url(../images/7.jpg);
+  grid-area: img7;
+  background-position: center;
+  background-size: cover;
+}
+
+.galeria-item8 {
+  background-image: url(../images/bg2.jpg);
+  grid-area: img8;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-portfolio {
+  height: 25px;
+  width: auto;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+/* FOOTER */
+
+footer{
+    padding: 40px;
+    background-color: $footerColor;
+  }
+  
+  .redes {
+    letter-spacing: 10px;
+  }
+  
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1200px){
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  #logo{
+    width: 300px;
+  }
+  *{
+    font-size: 15px;
+  }
+  .container-vision{
+    margin-top: 40px;
+    margin-left: 35px;
+    height: 480px;
+  }
+  .container-colab{
+    margin-top: 40px;
+    margin-left: 35px;
+    height: 490px;
+  }
+
+  /* GALERIA PROTFOLIO */
+  .galeria {
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+    display: grid;
+    padding: 10px;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 230px);
+    grid-template-areas: "img1 img2 img3 img3"
+                         "img1 img4 img5 img6"
+                         "img7 img4 img8 img8";
+  }
+  .home-portfolio{
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  *{
+    font-size: 14px;
+  }
+  #logo{
+    width: 300px;
+  }
+  .nav-item-correct {
+    a {
+      margin-right: 42px;
+    }
+  }
+  .container-vision{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 580px;
+    width: 370px;
+  }
+  .h1{
+    font-size: 65px;
+  }
+  .container-colab{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 370px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* GALERIA PORTFOLIO */
+  .galeria {
+    margin-top: 15px;
+    height: auto;
+    width: auto;
+    display: grid;
+    padding: 10px;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 230px);
+    grid-template-areas: "img1 img1 img2 img2"
+                         "img3 img4 img4 img4"
+                         "img5 img5 img6 img6"
+                         "img7 img8 img8 img8";
+  }
+  .home-portfolio{
+    margin-top: auto;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  *{
+    font-size: 13px;
+  }
+  #logo{
+    width: 230px;
+  }
+  .nav-item-correct {
+    a {
+      margin-right: 39px;
+    }
+  }
+  
+  .container-vision{
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+  }
+  .h1{
+    font-size: 35px;
+  }
+  .container-colab{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .redes{
+    word-spacing: 5px;
+  }
+
+  /* GALERIA PORTFOLIO */
+  .galeria {
+    margin-top: 15px;
+    height: auto;
+    width: auto;
+    display: grid;
+    padding: 10px;
+    grid-gap: 3px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 230px);
+    grid-template-areas: "img1"
+                         "img2"
+                         "img3"
+                         "img4"
+                         "img5"
+                         "img6"
+                         "img7"
+                         "img8";
+  }
+}
