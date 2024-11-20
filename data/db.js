@@ -2,7 +2,7 @@ export const ochoproyectos = [
     {
         id: "img1",
         nombre: "Edificio San Martin - 2016 ",
-        descripcion: "(Pocitos, Montevideo) / Colaboración con Estudio Cabrera. Coordinador de Proyecto Ejecutivo. El edificio se encuentra en un barrio de densidad media con muchos servicios pero con cierto deterioro ambiental. En planta baja se ubica el hall de acceso y las cocheras con sus correspondientes accesos.Las plantas tipo poseen una unidad de 1 dormitorio y una unidad de 2 dormitorios.En planta azotea se ubica un parrillero con pérgola, baño, tender y una terraza al frente, todo de uso común. El edificio está en el marco de la ley de vivienda promovida",
+        descripcion: "(Pocitos, Montevideo) / Colaboración con Estudio Cabrera. Coordinador de Proyecto Ejecutivo. Edificio de vivienda. En planta baja se ubica el hall de acceso y las cocheras. Las plantas superiores constan son de una unidad de 1 dormitorio y una unidad de 2 dormitorios. En planta azotea se ubica un parrillero con pérgola, baño, tender y una terraza al frente, todo de uso común. El edificio está en el marco de la ley de vivienda promovida.",
         imagen: "../images/1.jpg",
     },
     {
