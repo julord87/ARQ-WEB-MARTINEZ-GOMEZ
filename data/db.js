@@ -32,13 +32,13 @@ export const ochoproyectos = [
     {
         id: "img6",
         nombre: "Vestuarios de personal - 2019",
-        descripcion: "(Hospital Maciel, Montevideo) / Reforma y reagrupación de los antiguos vestuarios de personal, donde optimizamos el área disponible de un tanque de abastecimiento abandonando y del vestuario masculino anterior, para generar en la misma área dos nuevos sectores: masculino y femenino. A tales efectos, se propuso un sector mixto destinado al aseo, con piletas y espejo.",
+        descripcion: "(Hospital Maciel, Montevideo) / Reforma y reagrupación de los antiguos vestuarios de personal, donde optimizamos el área correspondiente a un tanque de abastecimiento abandonando y al antiguo vestuario masculino, para generar en el mismo metraje los dos nuevos servicios: vestuario masculino y femenino. A tales efectos, se propuso un sector mixto destinado al aseo, con piletas y espejo",
         imagen: "../images/6.jpg",
     },
     {
         id: "img7",
         nombre: "Laboratorio de Oncología Molecular - 2020",
-        descripcion: "(Hospital Maciel, Montevideo) / Luego de intervenir en un antiguo pabellón de doble altura, se genera un entrepiso destinado al nuevo laboratorio de Oncología Molecular. Se buscó generar los distintos locales mediante tabiquería de policarbonato alveolar con el fin de maximizar la presencia de la escaza luz natural con la que se contaba.",
+        descripcion: "(Hospital Maciel, Montevideo) / Luego de intervenir en un antiguo pabellón de doble altura, se genera un entrepiso destinado al nuevo laboratorio de Oncología Molecular. Se buscó particionar los distintos locales mediante tabiquería de policarbonato alveolar, con el fin de maximizar el alcance de la escaza luz natural con la que se contaba.",
         imagen: "../images/7.jpg",
     },
     {
