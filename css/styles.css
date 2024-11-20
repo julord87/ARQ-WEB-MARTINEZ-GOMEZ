@@ -45,7 +45,7 @@ html, body {
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/bg3.jpg);
+  background-image: url(../images/bg-3.jpg);
   background-attachment: fixed;
   background-position: left;
   background-size: cover;
@@ -196,7 +196,7 @@ body {
 }
 
 .galeria-item8 {
-  background-image: url(../images/8.jpeg);
+  background-image: url(../images/8.jpg);
   grid-area: img8;
   background-position: center;
   background-size: cover;
