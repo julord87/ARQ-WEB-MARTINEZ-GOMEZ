@@ -14,7 +14,7 @@ export const ochoproyectos = [
     {
         id: "img3",
         nombre: "Terrazas de Malvin - 2019",
-        descripcion: "(Malvin, Montevideo) / Jefe de proyecto ejecutivo en el proyecto del estudio Juan Diego Vecino Arquitectos. El proyecto se ubica en el barrio de Malvín. Un edificio de estilo contemporáneo y terrazas verdes.",
+        descripcion: "(Malvin, Montevideo) / Jefe de proyecto ejecutivo para el estudio Juan Diego Vecino Arquitectos (JDVA). Se trata de un edificio de vivienda ubicado en el barrio de Malvín. Un edificio de estilo contemporáneo y terrazas verdes a metros de la playa.",
         imagen: "../images/3.jpg",
     },
     {
