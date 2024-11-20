@@ -20,7 +20,7 @@ export const ochoproyectos = [
     {
         id: "img4",
         nombre: "Sanatorio Banco de Seguros - 2015",
-        descripcion: "(Montevideo) / Sanatorio y Centro Nacional de Rehabilitación del Banco de Seguros del Estado. Concurso de anteproyecto MENCIÓN HONORÍFICA. En conjunto con TEYMA. 15000m2.",
+        descripcion: "(Montevideo) / Colaboración con Lucía Bogliaccini - Estudio de Arquitectura. Coordinador de Proyecto Ejecutivo. Sanatorio y Centro Nacional de Rehabilitación del Banco de Seguros del Estado. Concurso de anteproyecto MENCIÓN HONORÍFICA. En conjunto con TEYMA. 15000m2.",
         imagen: "../images/4.jpg",
     },
     {
