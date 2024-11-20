@@ -26,7 +26,7 @@ export const ochoproyectos = [
     {
         id: "img5",
         nombre: "Edificio Joanicó - 2019",
-        descripcion: "(La Blanqueada, Montevideo) / El edificio se encuentra en un barrio de densidad media con muchos servicios y que está teniendo buena renovación edilicia los últimos años. Tiene en planta baja: jardín, hall, lockers, accesos y cocheras. Luego tiene 5 niveles de unidades (6 de 1 dormitorio y 6 de 2 dormitorios) y en último nivel tiene un salón con terraza y tender. Está en el marco de la ley de vivienda promovida",
+        descripcion: "(La Blanqueada, Montevideo) / Colaboración con Estudio Cabrera. Coordinador de Proyecto Ejecutivo. El edificio se encuentra en un barrio de densidad media con muchos servicios y que está teniendo buena renovación edilicia los últimos años. Tiene en planta baja: jardín, hall, lockers, accesos y cocheras. Luego tiene 5 niveles de unidades (6 de 1 dormitorio y 6 de 2 dormitorios) y en último nivel tiene un salón con terraza y tender. Está en el marco de la ley de vivienda promovida",
         imagen: "../images/5.jpg",
     },
     {
