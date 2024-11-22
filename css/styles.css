@@ -493,4 +493,7 @@ footer {
   footer {
     height: 15vh;
   }
+  .carousel-indicators {
+    display: none !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
