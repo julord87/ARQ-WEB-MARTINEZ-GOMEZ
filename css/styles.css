@@ -448,6 +448,9 @@ footer {
   .carousel-item .w-100 {
     width: 102vh !important; /* O cualquier otro valor que desees */
   }
+  .carousel-item-1 .w-100 {
+    width: 115vh !important; /* O cualquier otro valor que desees */
+  }
   .container-vision {
     margin-top: 35px;
     margin-left: auto;
